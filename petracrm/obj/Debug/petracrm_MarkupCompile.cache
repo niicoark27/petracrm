@@ -1,0 +1,20 @@
+﻿petracrm
+
+
+winexe
+C#
+.cs
+\\psf\Home\Documents\Visual Studio 2013\Projects\petracrm\petracrm\obj\Debug\
+petracrm
+none
+false
+DEBUG;TRACE
+\\psf\Home\Documents\Visual Studio 2013\Projects\petracrm\petracrm\App.xaml
+12-1331775069
+
+21-829345112
+131721740678
+Controls\controlCategories.xaml;Controls\controlCorrespondence.xaml;Controls\controlOperationsAdmin.xaml;Controls\controlSLAs.xaml;Controls\controlTickets.xaml;MainWindow.xaml;Pages\pageCategories.xaml;Pages\pageCorrespondence.xaml;Pages\pageNewTicket.xaml;Pages\pageSLAs.xaml;Pages\pageSubCorresdonce.xaml;Pages\pageTicketThread.xaml;
+
+False
+

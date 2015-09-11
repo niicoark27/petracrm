@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.625" name="petraCRMDB">
+  <DataContextMoniker Name="/petraCRMDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f8cd16c4-c9bf-4e37-b10d-94677f0acd1a" absoluteBounds="6, 1.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/petraCRMDBDataContext/category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77f5225c-9dd9-4d07-9c51-5ccede4422c1" absoluteBounds="6.015, 1.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.70923076923077 : 3.47280110677083); (6.70923076923077 : 3.72280110677083); (7.30461538461539 : 3.72280110677083); (7.30461538461539 : 3.47280110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/petraCRMDBDataContext/category/category_category" />
+      <nodes>
+        <classShapeMoniker Id="f8cd16c4-c9bf-4e37-b10d-94677f0acd1a" />
+        <classShapeMoniker Id="f8cd16c4-c9bf-4e37-b10d-94677f0acd1a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6e324e39-baa6-4634-8062-2123b0241958" absoluteBounds="3.25, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/petraCRMDBDataContext/correspondence" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0effc027-0970-4b6b-8982-42ef15123a8f" absoluteBounds="3.265, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.95923076923077 : 0.5); (3.95923076923077 : 0.25); (4.55461538461539 : 0.25); (4.55461538461539 : 0.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/petraCRMDBDataContext/correspondence/correspondence_correspondence" />
+      <nodes>
+        <classShapeMoniker Id="6e324e39-baa6-4634-8062-2123b0241958" />
+        <classShapeMoniker Id="6e324e39-baa6-4634-8062-2123b0241958" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="27994321-fab2-45bb-8c2a-014ec50d0a18" absoluteBounds="0.5, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/petraCRMDBDataContext/sla_timer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac34a539-533a-4b15-a0e6-dc283de63e94" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cb8bcc0c-fafa-4156-94ba-035650deb3cb" absoluteBounds="0.5, 3.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/petraCRMDBDataContext/sub_correspondence" />
+      <nestedChildShapes>
+        <elementListCompartment Id="094fd454-3e6c-4650-8104-4a128df728cb" absoluteBounds="0.51500000000000012, 4.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.21875 : 3.0401025390625); (5.21875 : 4.09375); (4.27083333333333 : 4.09375 : JumpStart); (4.10416666666667 : 4.09375 : JumpEnd); (3.23958333333333 : 4.09375 : JumpStart); (3.07291666666667 : 4.09375 : JumpEnd); (2.5 : 4.09375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/petraCRMDBDataContext/correspondence/correspondence_sub_correspondence" />
+      <nodes>
+        <classShapeMoniker Id="6e324e39-baa6-4634-8062-2123b0241958" />
+        <classShapeMoniker Id="cb8bcc0c-fafa-4156-94ba-035650deb3cb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.5 : 3.0401025390625); (1.5 : 3.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/petraCRMDBDataContext/sla_timer/sla_timer_sub_correspondence" />
+      <nodes>
+        <classShapeMoniker Id="27994321-fab2-45bb-8c2a-014ec50d0a18" />
+        <classShapeMoniker Id="cb8bcc0c-fafa-4156-94ba-035650deb3cb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2fee2f4a-e9fd-4168-be9d-9aa010d7d8d2" absoluteBounds="5.75, 4.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/petraCRMDBDataContext/ticket_statuse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5578cdbb-b23d-46b5-bf1e-5b1a3c346bd3" absoluteBounds="5.765, 5.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f6ff718c-2b4b-46ef-bf1a-4fa5dee681c6" absoluteBounds="3.125, 4.625, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/petraCRMDBDataContext/ticket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="239b5f86-e9ff-4973-9b9a-5249daa456cb" absoluteBounds="3.14, 5.085, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6 : 3.28770182291667); (4.27083333333333 : 3.28770182291667 : JumpStart); (4.10416666666667 : 3.28770182291667 : JumpEnd); (3.15625 : 3.28770182291667); (3.15625 : 4.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/petraCRMDBDataContext/category/category_ticket" />
+      <nodes>
+        <classShapeMoniker Id="f8cd16c4-c9bf-4e37-b10d-94677f0acd1a" />
+        <classShapeMoniker Id="f6ff718c-2b4b-46ef-bf1a-4fa5dee681c6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.1875 : 3.0401025390625); (4.1875 : 4.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/petraCRMDBDataContext/correspondence/correspondence_ticket" />
+      <nodes>
+        <classShapeMoniker Id="6e324e39-baa6-4634-8062-2123b0241958" />
+        <classShapeMoniker Id="f6ff718c-2b4b-46ef-bf1a-4fa5dee681c6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 5.34699625651042); (5.125 : 5.34699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/petraCRMDBDataContext/ticket_statuse/ticket_statuse_ticket" />
+      <nodes>
+        <classShapeMoniker Id="2fee2f4a-e9fd-4168-be9d-9aa010d7d8d2" />
+        <classShapeMoniker Id="f6ff718c-2b4b-46ef-bf1a-4fa5dee681c6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6135990b-b42e-45bf-bc7c-d685331ff7be" absoluteBounds="6, 6.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/petraCRMDBDataContext/ticket_comment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15d6a24c-d293-4f94-853b-6f21f9bfcc08" absoluteBounds="6.015, 7.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.70863627929687 : 8.8381982421875); (6.70863627929687 : 9.0881982421875); (7.30523818359375 : 9.0881982421875); (7.30523818359375 : 8.8381982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/petraCRMDBDataContext/ticket_comment/ticket_comment_ticket_comment" />
+      <nodes>
+        <classShapeMoniker Id="6135990b-b42e-45bf-bc7c-d685331ff7be" />
+        <classShapeMoniker Id="6135990b-b42e-45bf-bc7c-d685331ff7be" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.70863627929687 : 6.875); (6.70863627929687 : 6.625); (7.30523818359375 : 6.625); (7.30523818359375 : 6.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/petraCRMDBDataContext/ticket_comment/ticket_comment_ticket_comment1" />
+      <nodes>
+        <classShapeMoniker Id="6135990b-b42e-45bf-bc7c-d685331ff7be" />
+        <classShapeMoniker Id="6135990b-b42e-45bf-bc7c-d685331ff7be" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

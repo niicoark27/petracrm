@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 18.375" name="petraMicrogen">
+  <DataContextMoniker Name="/petraMicrogenDataContext" />
+  <nestedChildShapes>
+    <classShape Id="510e4e85-a714-4283-87f2-eb81cfc7d9d9" absoluteBounds="0.5, 0.625, 2, 7.1553369140625">
+      <DataClassMoniker Name="/petraMicrogenDataContext/EntityPerson" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4154544d-fc06-4dbc-9f0b-7b6f4be0168f" absoluteBounds="0.51499999999999968, 1.085, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="45363e83-fb0d-44fc-8807-9fb09a915afd" absoluteBounds="2.625, 0.625, 2, 5.4246240234375">
+      <DataClassMoniker Name="/petraMicrogenDataContext/Entity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a844d580-2bdc-4b2e-9e56-fbecf01a878e" absoluteBounds="2.6399999999999997, 1.085, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 3.33731201171875); (2.5 : 3.33731201171875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/petraMicrogenDataContext/Entity/Entity_EntityPerson" />
+      <nodes>
+        <classShapeMoniker Id="45363e83-fb0d-44fc-8807-9fb09a915afd" />
+        <classShapeMoniker Id="510e4e85-a714-4283-87f2-eb81cfc7d9d9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.18192307692308 : 6.0496240234375); (3.18192307692308 : 6.2996240234375); (3.36781851282051 : 6.2996240234375 : JumpStart); (3.53448517948718 : 6.2996240234375 : JumpEnd); (3.625 : 6.2996240234375); (3.625 : 6.0496240234375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/petraMicrogenDataContext/Entity/Entity_Entity" />
+      <nodes>
+        <classShapeMoniker Id="45363e83-fb0d-44fc-8807-9fb09a915afd" />
+        <classShapeMoniker Id="45363e83-fb0d-44fc-8807-9fb09a915afd" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8658637f-08ee-40bf-848d-17298892ced0" absoluteBounds="5.625, 0.625, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/petraMicrogenDataContext/EntityContact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="71e15388-cfe1-4f4f-a799-c387f43e3d58" absoluteBounds="5.64, 1.085, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.625 : 2.27965413411458); (5.625 : 2.27965413411458)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/petraMicrogenDataContext/Entity/Entity_EntityContact" />
+      <nodes>
+        <classShapeMoniker Id="45363e83-fb0d-44fc-8807-9fb09a915afd" />
+        <classShapeMoniker Id="8658637f-08ee-40bf-848d-17298892ced0" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="940b7290-7579-44a6-95b7-06f92f414915" absoluteBounds="5.5, 4.5, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/petraMicrogenDataContext/Association" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d68a09b3-3a9d-4eea-8290-d4c49e20d94f" absoluteBounds="5.515, 4.96, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.20923076923077 : 9.15541829427083); (6.20923076923077 : 9.40541829427083); (6.80461538461539 : 9.40541829427083); (6.80461538461539 : 9.15541829427083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/petraMicrogenDataContext/Association/Association_Association" />
+      <nodes>
+        <classShapeMoniker Id="940b7290-7579-44a6-95b7-06f92f414915" />
+        <classShapeMoniker Id="940b7290-7579-44a6-95b7-06f92f414915" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.625 : 5.27481201171875); (5.5 : 5.27481201171875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/petraMicrogenDataContext/Entity/Entity_Association" />
+      <nodes>
+        <classShapeMoniker Id="45363e83-fb0d-44fc-8807-9fb09a915afd" />
+        <classShapeMoniker Id="940b7290-7579-44a6-95b7-06f92f414915" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.625 : 4.82490600585937); (5.5 : 4.82490600585937)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/petraMicrogenDataContext/Entity/Entity_Association1" />
+      <nodes>
+        <classShapeMoniker Id="45363e83-fb0d-44fc-8807-9fb09a915afd" />
+        <classShapeMoniker Id="940b7290-7579-44a6-95b7-06f92f414915" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="dfad20c4-2283-47ac-80b4-8aca568ae0de" absoluteBounds="2.875, 7.5, 2, 10.6167626953125">
+      <DataClassMoniker Name="/petraMicrogenDataContext/EntityClient" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf828d11-484a-481a-96ca-5d1c92aaf759" absoluteBounds="2.89, 7.9600000000000009, 1.9700000000000002, 10.0567626953125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.3398076923077 : 6.0496240234375); (4.3398076923077 : 7.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/petraMicrogenDataContext/Entity/Entity_EntityClient" />
+      <nodes>
+        <classShapeMoniker Id="45363e83-fb0d-44fc-8807-9fb09a915afd" />
+        <classShapeMoniker Id="dfad20c4-2283-47ac-80b4-8aca568ae0de" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="56116599-55d7-49c7-94d5-cb4e1643af80" absoluteBounds="5.5, 9.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/petraMicrogenDataContext/EntityRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="499e644b-4864-4b3a-8def-84b874ba5110" absoluteBounds="5.515, 10.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.45115184615385 : 6.0496240234375); (3.45115184615385 : 7.25); (4.25647435897436 : 7.25 : JumpStart); (4.42314102564103 : 7.25 : JumpEnd); (5.125 : 7.25); (5.125 : 10.5681469726562); (5.5 : 10.5681469726562)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/petraMicrogenDataContext/Entity/Entity_EntityRole" />
+      <nodes>
+        <classShapeMoniker Id="45363e83-fb0d-44fc-8807-9fb09a915afd" />
+        <classShapeMoniker Id="56116599-55d7-49c7-94d5-cb4e1643af80" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

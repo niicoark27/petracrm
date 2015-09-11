@@ -1,0 +1,17 @@
+﻿<Page x:Class="petracrm.Controls.controlTickets"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      Background="WhiteSmoke"
+	Title="controlTickets" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+
+    <Grid Background="WhiteSmoke" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Loaded="Grid_Loaded">
+        <DataGrid x:Name="dgTickets" Margin="0,49,0,10"  PreviewMouseDoubleClick="dgTickets_PreviewMouseDoubleClick"
+                   SelectionUnit="FullRow" GridLinesVisibility="All" HeadersVisibility="All" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" CanUserAddRows="False" CanUserDeleteRows="False" ColumnWidth="*"
+                  />
+        <Button x:Name="btnNewTicket" Content="Create a new ticket" HorizontalAlignment="Left" Height="27" Margin="10,10,0,0" VerticalAlignment="Top" Width="149" Click="btnNewTicket_Click"/>
+
+    </Grid>
+</Page>

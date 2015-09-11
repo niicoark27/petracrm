@@ -1,0 +1,15 @@
+﻿<Page x:Class="petracrm.Controls.controlCorrespondence"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="343"
+	Title="controlCorrespondence" Width="575.969">
+
+    <Grid Background="WhiteSmoke">
+        <DataGrid x:Name="dgCorrrespondence" Margin="6,45,10,10" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+        <Button x:Name="btnNewCorrespondence" Content="Add New Correspondence" HorizontalAlignment="Left" Margin="6,11,0,0" VerticalAlignment="Top" Width="158" Click="btnNewCorrespondence_Click"/>
+
+    </Grid>
+</Page>
